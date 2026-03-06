@@ -1,0 +1,21 @@
+{
+    "title":"output_formate",
+    "type":"object",
+    "properties":{
+        "summary":{
+            "type":"string",
+            "description":"summary"
+        },
+        "sentiment":{
+            "type":"string",
+            "description":"positive or negative or Neutral"
+        },
+       
+        "writer":{
+            "type":"string",
+            "description":"writer name"
+        }   
+    },
+    "required":["summary","sentiment","writer"]
+    
+}
